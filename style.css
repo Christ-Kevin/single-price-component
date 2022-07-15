@@ -158,6 +158,9 @@ p {
 }
 
 @media(min-width: 650px) {
+    body {
+        width: max(635px, 40%);
+    }
 
     header,
     section {
