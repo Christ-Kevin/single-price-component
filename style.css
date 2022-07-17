@@ -133,7 +133,7 @@ h3 {
 }
 
 p {
-  margin-bottom: 1.7rem;  
+    margin-bottom: 1.7rem;
 }
 
 .btn {
@@ -154,7 +154,8 @@ p {
 
 .btn:hover {
     cursor: pointer;
-    background-color: yellow;
+    background-color: var(--section2);
+    border: 1px solid var(--green);
     color: var(--green);
 }
 
